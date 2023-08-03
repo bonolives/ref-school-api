@@ -1,9 +1,3 @@
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
-
-[packages]
 django = "*"
 djangorestframework = "*"
 mysqlclient = "*"
@@ -15,8 +9,3 @@ psycopg2-binary = "*"
 environ = "*"
 crispy-bootstrap5 = "*"
 django-environ = "*"
-
-[dev-packages]
-
-[requires]
-python_version = "3.11"
