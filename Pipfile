@@ -15,6 +15,7 @@ psycopg2-binary = "*"
 environ = "*"
 crispy-bootstrap5 = "*"
 django-environ = "*"
+gunicorn = "*"
 
 [dev-packages]
 
