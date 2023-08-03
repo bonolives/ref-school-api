@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-ii-hwl^rf5*^_wtor^-w$p-5t^d=6vvnm*b_a_a8lo=8d9f@0n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://school-api-2wqk.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -140,7 +140,7 @@ REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': [
         # 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
         'rest_framework.renderers.JSONRenderer',
-        # 'rest_framework.renderers.BrowsableAPIRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
         'drf_excel.renderers.XLSXRenderer',
     ]
 }
