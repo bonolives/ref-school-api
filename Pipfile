@@ -17,6 +17,7 @@ crispy-bootstrap5 = "*"
 django-environ = "*"
 gunicorn = "*"
 whitenoise = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 

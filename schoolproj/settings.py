@@ -45,12 +45,18 @@ INSTALLED_APPS = [
     'drf_yasg',
     'whitenoise',
     "rest_framework",
+    'corsheaders',
+]
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',  # Replace with the domain of your React app
+    'https://react-school-system.onrender.com/',     # Add more origins as needed
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
+    'corsheaders.middleware.CorsMiddleware',
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
