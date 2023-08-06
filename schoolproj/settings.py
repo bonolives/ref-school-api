@@ -51,13 +51,10 @@ CORS_ORIGIN_WHITELIST = (
 'http://localhost:3000',
 'http://localhost:8000',
 'http://localhost:5173',
-'https://react-school-system.onrender.com/',
+'http://localhost:5174',
+'https://react-school-system.onrender.com',
 )
 
-# CORS_ALLOWED_ORIGINS = [
-#     'http://localhost:5173',  # Replace with the domain of your React app
-#     'https://react-school-system.onrender.com/',     # Add more origins as needed
-# ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
