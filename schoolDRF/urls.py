@@ -21,8 +21,8 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('staffs/', views.StaffView.as_view(), name='staff-list-create'),
-    path('staffs/<int:pk>', views.SingleStaffView.as_view()),
+    path('staff/', views.StaffView.as_view(), name='staff-list-create'),
+    path('staff/<int:pk>', views.SingleStaffView.as_view()),
     path('students/', views.StudentView.as_view()),
     path('students/<int:pk>', views.SingleStudentView.as_view()),
     path('courses/', views.CourseView.as_view()),

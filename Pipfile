@@ -9,7 +9,16 @@ djangorestframework = "*"
 mysqlclient = "*"
 drf-excel = "*"
 drf-yasg = "*"
-django-rest-swagger = "*"
+# django-rest-swagger = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+environ = "*"
+crispy-bootstrap5 = "*"
+django-environ = "*"
+gunicorn = "*"
+whitenoise = "*"
+django-cors-headers = "*"
+pywin32 = "*"
 
 [dev-packages]
 
