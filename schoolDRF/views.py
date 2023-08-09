@@ -47,7 +47,7 @@ class DepartmentView(generics.ListCreateAPIView):# retrieve
     pagination_class = CustomPagination
 
 class SingleDepartmentView(generics.RetrieveUpdateAPIView, generics.RetrieveDestroyAPIView):
-    queryset = Course.objects.all()
+    queryset = Department.objects.all()
     serializer_class = DepartmentSerializer
     
 #Club
